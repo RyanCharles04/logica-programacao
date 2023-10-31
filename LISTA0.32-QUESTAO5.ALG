@@ -1,18 +1,18 @@
 Algoritmo "lista0.32-questao5"
 // Fazer um algoritmo que pergunte dois números e ao final apresente os seguintes valores: a soma dos dois
-números, a subtração do primeiro pelo segundo número, a subtração do segundo pelo primeiro número, a
-multiplicação entre os dois números, a divisão do primeiro pelo segundo número, e também o resto da divisão
-do primeiro pelo segundo número.
+//números, a subtração do primeiro pelo segundo número, a subtração do segundo pelo primeiro número, a
+//multiplicação entre os dois números, a divisão do primeiro pelo segundo número, e também o resto da divisão
+//do primeiro pelo segundo número.
 Var
 // Seção de Declarações das variáveis
-num1: real
-num2: real
-soma: real
-sub1: real
-sub2: real
-mul:  real
+num1: inteiro
+num2: inteiro
+soma: inteiro
+sub1: inteiro
+sub2: inteiro
+mul: inteiro
 divi: real
-res: real
+res: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -29,6 +29,13 @@ sub2 <- num2 - num1
 mul <- num1 * num2
 div <- num1 / num2
 res <- num1 % num2
+
+escreval("A soma dos dois números é:",soma)
+escreval("A subtração do primeiro pelo segundo é:", sub1)
+escreval("A subtração do segundo pelo primeiro é:", sub2)
+escreval("A multiplicação entre os dois números é:", mul)
+escreval("A divisão do primeiro pelo segundo é:", divi)
+escreval("O resto da divisão é:", res)
 
 
 Fimalgoritmo
