@@ -18,7 +18,7 @@ num <- 1
 num2 <- 1
 
 escreval("A série de Fibonacci até o décimo quinto termo corresponde à:")
-enquanto (cont < 15) faca
+enquanto (cont <= 15) faca
          escreval(num2)
          soma <- num + num2
          num <- num2
