@@ -16,7 +16,7 @@ leia(dis)
 escreval("Qual é o valor do consumo médio do automóvel em Kilômetros por litro:")
 leia(consumo)
 
-gasto <- consumo / dis
+gasto <- dis / consumo
 
 escreval("O seu carro vai consumir", gasto, " litros de combustível")
 
