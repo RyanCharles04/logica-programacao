@@ -1,19 +1,16 @@
 Algoritmo "questao6"
 // Desenvolver um programa que apresente as potências de 2, variando de 0 a 10.
 Var
-// Seção de Declarações das variáveis 
-cont, potencia, resultado: inteiro
-
+cont, potencia : inteiro
+resultado: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-
 cont <- 0
 potencia <- 2
 
 repita
-      resultado <- potencia * cont
-      escreval(resultado)
+      resultado <- potencia ^ cont
+      escreval("Potências de 2, variando de 0 a 10:",resultado)
       cont <- cont + 1
 
 ate (cont > 10)
