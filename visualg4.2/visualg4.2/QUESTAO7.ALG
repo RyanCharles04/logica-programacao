@@ -4,7 +4,7 @@ Algoritmo "questao7"
 //qualquer, ou seja, de NM.
 
 Var
-base, expoente, potencia: real
+base, expoente, potencia, cont: inteiro
 
 Inicio
 escreval("Escolha uma base de uma potência:")
@@ -13,9 +13,14 @@ leia(base)
 escreval("Escolha um  número para ser o expoente da potência:")
 leia(expoente)
 
-potencia <- base ^ expoente
+potencia <- 1
+cont <- 1
 
-escreval("O valor da potência é:",potencia)
+repita
+      potencia <- base * potencia
+      cont <- cont + 1
+ate (cont > expoente)
 
+escreval(base, " elevado a",expoente, " =",potencia)
 
 Fimalgoritmo
