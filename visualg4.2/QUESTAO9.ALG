@@ -26,7 +26,7 @@ leia(num2)
 
 escreval("A série de Ricci até o décimo quinto termo à partir dos números inseridos:")
 repita
-      escreval(num2)
+      escreval(num)
       soma <- num + num2
       num <- num2
       num2 <- soma
