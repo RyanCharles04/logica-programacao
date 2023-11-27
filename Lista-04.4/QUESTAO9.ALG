@@ -11,25 +11,28 @@ leia(num)
 
 se (num = 1) entao
    escreval("O primeiro dia da semana é: Domingo")
+senao
+   se (num = 2) entao
+      escreval("O segundo dia da semana é: Segunda-feira")
+   senao
+      se (num = 3) entao
+         escreval("O terceiro dia da semana é: Terça-feira")
+      senao
+         se (num = 4) entao
+            escreval("O quarto dia da semana é: Quarta-feira")
+         senao
+            se (num = 5) entao
+               escreval("O quinto dia da semana é: Quinta-feira")
+            senao
+               se (num = 6) entao
+                  escreval("O sexto dia da semana é: Sexta-feira")
+               senao
+                  escreval("O sétimo dia da semana é: Sabádo")
 fimse
-se (num = 2) entao
-   escreval("O segundo dia da semana é: Segunda-feira")
 fimse
-se (num = 3) entao
-   escreval("O terceiro dia da semana é: Terça-feira")
 fimse
-se (num = 4) entao
-   escreval("O quarto dia da semana é: Quarta-feira")
 fimse
-se (num = 5) entao
-   escreval("O quinto dia da semana é: Quinta-feira")
 fimse
-se (num = 6) entao
-   escreval("O sexto dia da semana é: Sexta-feira")
 fimse
-se (num = 7) entao
-   escreval("O sétimo dia da semana é: Sabádo")
-fimse
-
 
 Fimalgoritmo

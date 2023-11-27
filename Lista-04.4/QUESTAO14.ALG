@@ -11,14 +11,12 @@ leia(idade)
 
 se (idade < 18) entao
    escreval("Você é menor de idade!")
+senao
+   se (idade >= 18) e (idade <= 65 ) entao
+      escreval("Você é maior de idade!")
+   senao
+      escreval("Você é maior de 65")
 fimse
-
-se (idade >= 18) e (idade <= 65 ) entao
-   escreval("Você é maior de idade!")
-fimse
-
-se (idade > 65) entao
-   escreval("Você é maior de 65")
 fimse
 
 Fimalgoritmo

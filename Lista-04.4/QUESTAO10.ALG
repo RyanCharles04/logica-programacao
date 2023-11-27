@@ -11,18 +11,17 @@ leia(estado)
 
 se (estado = "Rio de Janeiro") entao
    escreval(estado, " está na região Sudeste")
-
-se (estado = "São Paulo") entao
-   escreval(estado, " está na região Sudeste")
-   
-se (estado = "Minas Gerais") entao
-   escreval(estado, " está na região Sudeste")
-
-se (estado = "Espírito Santo") entao
-   escreval(estado, " está na região Sudeste")
-
 senao
-     escreval("O estado informado não é da região Sudeste")
+   se(estado = "São Paulo") entao
+      escreval(estado, " está na região Sudeste")
+   senao
+      se (estado = "Minas Gerais") entao
+         escreval(estado, " está na região Sudeste")
+      senao
+         se (estado = "Espírito Santo") entao
+            escreval(estado, " está na região Sudeste")
+         senao
+              escreval("O estado informado não é da região Sudeste")
 fimse
 fimse
 fimse

@@ -27,14 +27,11 @@ media <- (n1 + n2) / 2
 
 se (media < 3) entao
    escreval("Você está Reprovado!")
+senao
+   se (media >= 3) e (media < 7) entao
+      escreval("Você está em Prova Final!)
+   senao
+      escreval("Você está Aprovado!")
 fimse
-
-se (media >= 3) e (media < 7) entao
-   escreval("Você está em Prova Final!")
 fimse
-
-se (media >= 7) entao
-   escreval("Você está Aprovado!")
-fimse
-
 Fimalgoritmo

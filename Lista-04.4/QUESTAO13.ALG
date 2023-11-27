@@ -17,14 +17,12 @@ leia(num3)
 
 se (num1 > num2) e (num1 > num3) entao
    maior <- num1
+senao
+   se (num2 > num1) e (num2 > num3) entao
+      maior <- num2
+   senao
+         maior <- num3
 fimse
-
-se (num2 > num1) e (num2 > num3) entao
-   maior <- num2
-fimse
-
-se (num3 > num1) e (num3 > num2) entao
-   maior <- num3
 fimse
 
 escreval("O maior número inserido foi: ",maior)
