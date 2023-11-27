@@ -9,14 +9,13 @@ Inicio
 escreval("Informe um número:")
 leia(num)
 
-se (num >= 1) entao
+se (num > 0) entao
         escreval("O número inserido é positivo")
+senao
+   se (num < 0) entao
+      escreval("O número inserido é negativo")
+   senao
+      escreval("O número é nulo")
+   fimse
 fimse
-se (num <= -1) entao
-   escreval("O número inserido é negativo")
-fimse
-se (num = 0) entao
-   escreval("O número é nulo")
-fimse
-
 Fimalgoritmo
